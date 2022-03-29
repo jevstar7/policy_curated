@@ -1,0 +1,93 @@
+/*
+Author: Programmer Davis jsoftware7@gmail.com
+Created: September 23 2021
+Purpose: apply styles
+*/
+			/*general*/
+			body{
+				font-family: 'MuseoModerno', !important;
+			}
+			.c-content{
+				text-align:center;
+			}
+			.b-content{
+				font-weight:bold;
+			}
+			a{
+				text-decoration: underline;
+			}
+			hr{
+				border:1px solid #000;
+			}
+			section{
+				margin:30px;
+			}
+			.t-padding{
+				padding:10px;
+			}
+			.head-bg{
+				color: white;				
+				background-color: rgba(198,19,0);
+			}
+			.body-bg{
+				background-color:#e3e3cc;
+			}
+			.w-back{
+				background-color:white;
+			}
+			.r-padding{
+				padding: 0px 15px 0px 15px;
+			}
+			.foot-bg{
+				color: white;				
+				background-color: rgba(0,0,0);
+			}
+			.f-left{
+				float:left;
+			}
+			.clear-b{
+				clear:both;
+			}
+			/*general*/
+			
+			/*resources.php*/
+			.no-js #loader { 
+				display: none;  
+			}
+			.js #loader { 
+				display: block; position: absolute; left: 100px; top: 0;
+			}
+			.se-pre-con {
+			  position: fixed;
+			  left: 0px;
+			  top: 0px;
+			  width: 100%;
+			  height: 100%;
+			  z-index: 9999;
+			  background: url(712.gif) center no-repeat #fff;
+			}				
+			hr{
+				border:1px solid #000;
+			}
+			.remove-container{
+				max-height:900px;
+				overflow:scroll;
+			}
+			#progressBar{
+				width:250px;
+			}
+			/*resources.php*/
+			
+			/*curatedresources2.php*/
+			.r-size{
+				/*width:100%; height:100%;*/  
+				max-width:400px; max-height:400px;
+			}
+			.resource-img{
+				width:auto; height:auto; max-width:300px;
+			}			
+			.r-box{
+				width:307px;
+				height:547px;
+			}			
+			/*curatedresources2.php*/
